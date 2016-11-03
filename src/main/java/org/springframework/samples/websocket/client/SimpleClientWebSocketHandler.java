@@ -28,7 +28,6 @@ public class SimpleClientWebSocketHandler extends TextWebSocketHandler {
 
 	private final GreetingService greetingService;
 
-
 	@Autowired
 	public SimpleClientWebSocketHandler(GreetingService greetingService) {
 		this.greetingService = greetingService;
